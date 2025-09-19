@@ -1,0 +1,13 @@
+{
+  "name": "pc-builder-app",
+  "version": "1.0.0",
+  "description": "PC Builder E-commerce Application",
+  "scripts": {
+    "build": "cd frontend && npm run build",
+    "dev": "cd frontend && npm run dev",
+    "start": "cd frontend && npm start"
+  },
+  "keywords": ["pc-builder", "ecommerce", "nextjs"],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,5 +1,7 @@
 'use client';
 
+export const dynamic = 'force-dynamic';
+
 import { useEffect, useState } from 'react';
 import { adminService } from '../../../services/adminService';
 
@@ -168,7 +170,7 @@ const AdminInventory = () => {
               <option value="all">All Products</option>
               <option value="low">Low Stock (≤10)</option>
               <option value="out">Out of Stock (=0)</option>
-              <option value="high">High Stock (>50)</option>
+              <option value="high">High Stock (&gt;50)</option>
             </select>
           </div>
         </div>
